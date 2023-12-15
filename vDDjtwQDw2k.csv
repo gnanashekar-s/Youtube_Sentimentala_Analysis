@@ -1,0 +1,265 @@
+Username,Comment
+@freecodecamp,"Next, learn from Radu how to create a virtual world, populated by self-driving cars: https://www.youtube.com/watch?v=V_C7L7zelz8&list=PLB0Tybl0UNfZtY5IQl1aNwcoOPJNtnPEO"
+@ultimategolfarchives4746,Best sleeping tape ever 😊
+@zer001,This is the second video of you that i watched. And i love it! 1:18:02 Best joke ever.
+@user-dd7jo7dr3x,We zzzszZZ
+@user-my7eg3dy3f,I wonder if this man codes 19 hours a day or what...
+@DannyDusse,Completed after one and a half weeks. This channel is amazing!
+@frankdearr2772,"Great topic,  thanks 👍"
+@pudum4916,You are outstanding ❤
+@alexeyprikhodko6990,wow
+@bartek...,...
+@user-bc5zu9yz1o,cool
+@RogerSherman-ep7cy,Thanks for the video! Loved it very much!
+@user-uc7lg8oq5k,Jenius
+@abdulbasitrajpoot2713,"Bro, do videos for newbies too. This is very complex. Why did you create image recognizer? why did you do this with simple text values?"
+@techwithdipufrom0ton621,'Code without libraries and create my own machine learning driven application' is  what I dreamed of before I got my laptop. Thank you guys for this course
+@udomthalek3492,HELLO  EVRY ONE
+@user-xi9er7lc6p,JS on steroids
+@nastaranheidarysharifabadi4648,🙏
+@cosmicwitness3390,what is the point of having those javascript objects in the project files?
+@duke_adi,"At 2:24:00 hrs, professor asks about the possibility for some heights or widths going beyond 400, the most easy solution could be fault in the user's code where instead of 400 height and width, the user accidentally filled a bigger value!"
+@satwikawasthi2002,"I couldn't install canvas from npm, please help, it is showing lots of errors"
+@duke_adi,"Excellent course Sir! I have learnt so many things from this video that it is difficult to note them down! Sir , you should come to any university in India for teaching computer science since your teaching style and personality  skills are in most demand here 😀"
+@csbluechip,Dude. Seriously. Get your condenser mic off the desk. The low drumming as you type is unbearable!
+@freecodecamp,"Next, learn from Radu how to create a virtual world, populated by self-driving cars: https://www.youtube.com/watch?v=V_C7L7zelz8&list=PLB0Tybl0UNfZtY5IQl1aNwcoOPJNtnPEO"
+@meganova609,2:35:15 just pass the nearestSample it got all the value
+@MDPg159,"It's not really ""Without Libraries"" if you're using Javascript. Scripting languages, in a way, are completely dependent and founded on the use of libraries. This can be seen by the complete lack of portability of the program. Furthermore, the use of a literal library is also not really ""Without Libraries"" either"
+@meganova609,28:11 try to change height of #content to height:90vh
+@pearlboy,"I've apple silicon, somehow I was finding difficulty in most of the node version on using canvas. When I tried with node version 10 it worked. sharing it as information. as it might help someone out there."
+@pearlboy,Thanks!
+@bhavyajain638,"46:00 I added a new event listener, onmouseleave() and set isDrawing to false."
+@anmolsharma4049,"He's very genius, I'm amazed by his fundamental understanding of concepts. True computer scientist"
+@MaximeCHEVASSON,"Pretty cool both from a thearical point, of view and from a pure JS code pov.
+It makes it pretty accessible.
+
+Thanks a lot, great job"
+@BS-pi4sf,44:35 just calling click() without appending works for me in Chrome...
+@mehrdad1068,My favorite course
+@cosmicwitness3390,bro please do this python js code makes my head hurt and i think python makes the code more readable and easy to follow
+@kimberlywhite8399,"Sir, I need help on this because the canvas doesn't show up"
+@leroyparker,"This is fantastic.  I've been following along, keystroke for keystroke all day today, 5 hours to reach the 54 min mark - I pause a lot to double check everything.  Unfortunately, I've hit a wall and I think it might be a Mac thing.  When trying to run the dataset_generator for the first time, about 54:30 in the video, it throws an ""unexpected token    in JSON at position 0"" (two spaces after 'token"" implying a null/undefined value there).  figured I'd share this in case, 1) someone else has worked through it, and 2) you might not have received much feedback from mac users if your students are a PC clan.
+
+In any event, I'll eventually debug this, I'm just so thankful for you and this content.  Please keep up the good work."
+@donjurke2286,"vow, best teacher ever! thank you so much!
+On touchscreen scetchpad and whole page starts scrolling when I draw. As suggested fix in css file:
+body{
+    overscroll-behavior: none;
+}  did not work, but 
+
+html{
+    overscroll-behavior: none;
+}  worked"
+@praveenl169,"Better and secure way to save json data - create blob, create a temporary url for the blob, trigger the download, clean up the temporary url"
+@slfanta,cool but why is it in javascript????
+@user-bx6lh6ys6l,FYI:If the google charts isnt loading might be because your using LiveServer.Also classList has built in toggle method so no need for if else to turn it on/off.
+@krystiankrysti1396,STop blabbibing move to the point dood
+@bkosimi,"Amazing! Radu is probably one of the best programming teachers, easy to follow and comprehensive delivery of complex content. Bravo!"
+@honkletondonkleton,We need part 2! Please!
+@RaymondJohnsonM,"I was following allong with the Javascript segment and ran into a problem where even after ""this.paths"" was consistent throughout the sketchpad, there was a problem with 'this.paths.push' still not being defined. As it turned out, it was chicken and egg problem with the array definition not have a valid array entry value, and thus being considered empty, and therefore, undefined. I was able to resolve this issue this this code:
+
+<<<    #addEventListeners(){
+        this.canvas.onmousedown = (evt) => {
+            const mouse = this.#getMouse(evt);
+            this.currentPath = [mouse]; // Start a new path with the starting point
+            this.isDrawing = true;
+        };
+    
+        this.canvas.onmousemove = (evt) => {
+            if (this.isDrawing) {
+                const mouse = this.#getMouse(evt);
+                this.currentPath.push(mouse); // Add points to the current path
+                this.#redraw();
+            }
+        };
+    
+        this.canvas.onmouseup = () => {
+            if (this.currentPath && this.currentPath.length) {
+                this.paths.push(this.currentPath); // Save the completed path
+            }
+            this.currentPath = null; // Reset the current path
+            this.isDrawing = false;
+        };
+    }
+    
+
+    #redraw(){
+        this.ctx.clearRect(0, 0, this.canvas.width, this.canvas.height);
+        draw.paths(this.ctx, this.paths);
+        if (this.currentPath && this.currentPath.length) {
+            draw.path(this.ctx, this.currentPath); // Draw the currently active path
+        }
+    }>>>"
+@user-vl6dk7sr4m,топово!!!!
+@stbuchok,"I have a saying for myself ""I don't want to learn to use a library, I want to learn how to write that library."" Free online courses like this help everyone. Thank you. I haven't started it, but I've wanted to get into learning more about ML, specifically from Javascript. I have a feeling this is going to fit my needs perfectly."
+@nunofigueira8691,"I decide watch this course just to validate the summer, and it catch all my attention.  Thank you very much."
+@danielanson5120,I liked it when the Prime Minister of Finland showed up!!!! epic!!!
+@danielanson5120,"phenomenal course!  Dr Radu is the best and with such a patient and explanatory demeanor, a genuine pleasure to watch and learn from."
+@dominikrodler8010,"You didn't get the DOCTOR House joke apparently, which I found quite funny 😁
+Really nice course!"
+@vitalychernobyl6137,Oooooo😊😊oo😊o😊oo😊
+@justdoeverything8883,"This is an awesome course, but I just want to add, so many of the little annoyances on the drawing app can be avoided by using pointerevents, which work for touch and mouse events, and allow you to capture the event instead of having to put the listener on the document itself."
+@bailahie4235,"I like the ""Garbage --> cogs --> Garbage"" diagram at 2:40 in the explanation to summarise the importance of understanding your training data. 🤣"
+@francoisarbour1207,"The fact this is free content blows my mind, incredible value. Thanks!"
+@alialipour9061,thats fantastic
+@AQ22W,"(1) Thank You. 
+
+(2) iCON Use For Graph. 
+
+(3) # of Neighbors For Classification. 
+
+(4) ""Country-Bubble-Color"" For Each Object iNSTANCE, Was Enlightening. 
+
+(5) Details = Better Graphical Pointing. 
+
+(6) Label Which Pieces Of Code, Correct Which Errors (Error Database)...To Differentiate Between Base Code & ECC (Error Correcting Code). 
+
+(7) Play Video @ A Faster Speed (For Longer Videos). 
+
+(8) What Are Your Top 10 Companies That You Work For?"
+@kingcoder31aug,Want a course on natural language processing
+@celenial6009,I havent watched yet but can tell by the comments that you are a great teacher
+@_yllw6155,"Is there any specific reason or benefit he doesn't use spaces when assigning variables, declaring conditionals, or creating for loops? Is it simply preference?
+
+I think most people (including me) would write like this:
+
+const foo = 'bar';
+
+for (let i = 0; i < baz.length; i++) {
+...
+}
+
+but he writes like this (and I've seen some others):
+
+const foo='bar';
+
+for (let i=0;i<baz.length;i++) {
+...
+}"
+@financewithsom485,Thanks Radu bhai  kya course banaya phad diye bhaiii
+@quantumastrologer5599,Essentially centering  a div in the first ten minutes. What a flex.
+@solodoumbia2095,Fantastic hack! I did everything you showed here and it worked! Thanks a lot!
+@mariacristinaarezzi,Hello
+@manpreet8598,2:1:36
+@aldonunes,"It happened to me that when I touched the screen and dragged my finger, the whole screen and the canvas were dragged together (28 min.).
+
+I saw that this is the default behavior. So I just added a ""preventDefault();"" to functions associated with events.
+
+Code:
+this.canvas.ontouchstart = (and) => {
+   e.preventDefault();
+   const loc = e.touches[0];
+   this.canvas.onmousedown(loc);
+}
+
+this.canvas.ontouchmove = (and) => {
+   e.preventDefault();
+   const loc = e.touches[0];
+   this.canvas.onmousemove(loc);
+}
+
+this.canvas.ontouchend = (and) => {
+   e.preventDefault();
+   this.canvas.onmouseup();
+}"
+@Deletedeletedelete,"братишка, спасибо за контент, ты лучший!"
+@mariacristinaarezzi,Hello
+@mariacristinaarezzi,Hello
+@thomasgarayua4979,I was watching a swift tutorial on recursion and I woke up to this video
+@LodeStarYT,Looking forward to part 2. This one was very interesting
+@aimanshaacodes,same with python please!!
+@julianbullmagic,Really looking forward to part two. This is a very effective teaching style for this subject.
+@neilclay5835,Fascinating
+@ashganmustafa9031,"Such a great course , I  am enjoying it  😊"
+@ashganmustafa9031,"Such a great course , I  am enjoying it  😊"
+@TuanTrinh-qx5vq,what vscode theme is this?
+@pacoescriba470,"please,  could you left the code in some place? My code is apparently exactly as your code, but it doesn't run correctly."
+@kelvinclark3474,you can change all the onmouse*** to onpointer*** to not set the ontouch*** events. THe onpointer**** registers the event for both mouse and touch.
+@fahad_hassan_92,The Drawing App is easy to understand but how are we supposed to come up with stuff like that? 10 years of experience in computer science? lol
+@fahad_hassan_92,"20:56 Can someone explain what he has done here? Why create a const draw with the curly brackets and what is draw.path? You can also just tell me the topic name if you don't want to explain here, I can do research on it myself then"
+@kushagrakumar1282,"Hi, Could you please make a similar course in python?"
+@sergiorome48,Ew not JavaScript
+@ryouko2971,"Hey Dr.Radu, can you create a video on how you went about creating your own Chart component? That was an amazing moment when you went out of your way to create something like that and inspired me to build my tools like this. Any source or recommendations for learning this?"
+@seriousinjaehun,"Jacob, I told you not to draw it like that."
+@jeremyh9841,image generation ?
+@shriniwas_patwardhan,Thanks!
+@kingcoder31aug,"i want more videos like this where i can learn depper concepts of cnn , rnn like that . This video was great 🔥🔥"
+@FOM_extras,omg it's Radu! yay!
+@parsonsmarcus,"Just as a quick aside in the beginning part, if you set the content type to ""text/plain"" in the data string, you may run into issues when downloading file data because the browser thinks it should be a .txt file. If you instead set the content type to be ""application/json"", it will download just fine without a warning. Like so: ""data:application/json;charset=utf-8""
+
+Chrome warned me on MacOS whenever I wanted to download this file with a .json extension that had a content type of text/plain."
+@godlikemouse,"Hi Radu, I just finished the first part of the course.  Great so far, thank you.  You asked if there was a better way to handle the download anchor click.  I'd like to suggest the following:
+
+const element = document.createElement(""a"");
+element.setAttribute(
+    ""href"",
+     ""data:text/plain;charset=utf-8,"" +
+         encodeURIComponent(JSON.stringify(data))
+);
+
+const fileName = data.session + "".json"";
+element.setAttribute(""download"", fileName);
+element.click();
+
+There shouldn't be any need to actually inject the anchor into the document.  You can simply create the element and invoke the click directly in memory.  Hope this helps :)"
+@amouratoglou,"awesome loved it was no library, great way to get a grasp of how things are made under the hood.
+great tutorial doc! make more!!!!! always the best free code camp, I learned coding better with you guys."
+@JuniorMarques79,"Very nice, thanks."
+@ahmed.bhewary775,"excellent, hope to see videos like this one in c++ or python ( without libraries )."
+@_batman_Fan_,Saved in my playlist.
+@toyin5522,"Imagine having this guy as your professor
+So good 👍 👏"
+@yasirmehmood4295,"loved the earlier part of the video but it got kinda hard for me since I'm not that proficient in JS, will definitely revert back later.  Thanks  Dr. Radu"
+@papatangovictor,Machine learning is not a metaphysical abstraction that will allow machines to dominate humanity. Which is already dominated by the interests of large corporations that have governments in their pockets. Technically it's just fine-tuned probability based on sophisticated code and a lot of processing power. And this guy is a root programmer with excellent teaching skills. The best and most demystifying introduction to the topic I've seen in 5235 YT videos...
+@atharvkulkarni534,"As always, just on time"
+@meso9497,"Hi, to fix the issue with moving screen on apple devices touch screens, in the css stylesheet, body selector, set the touch-action to none and you good to go."
+@Saveself99,"This, Monte Carlo, Linear Algebra, GeoSpatial, Trees and Classifiers and you have a good background of ML and Stats"
+@Radu,"Hope you have fun with this course! If you have questions, comments, or suggestions, please reach out in the comments section or on my Discord server. 
+Happy Coding :-)"
+@kushagrakumar9576,"Hi, is there a similar course in python?"
+@JohnDoe_69_420,"Ooooooo Radu's going mainstream now, this is so cool! Hopefully he's going to gain some subscribers from this, which is super great, Radu deserves the recognition for the amount of valuable education he provides!
+
+Gonna code, debug, and have fuuuuun,
+Coding with Radu... Coding with Radu"
+@johnsonisreal4530,Why this is interesting and enjoy the course alot.
+@LucasDimoveo,Why is this in JS?
+@oyeSAURABH,"I am planning to learn ML AI and all, which language will be better for long term? PY or JS ?"
+@mohammedabujayyab6146,perfect 🎉    thanks a lot!!
+@mannycalavera121,RIIR
+@mikelexx2542,Man i have always prayed for courses like these thanks man
+@trojan606,Masterpiece
+@trojan606,Without libraries? wow
+@joyalmeida6565,A course of federated learning with a project please!!
+@cosmoscience005,"Wow, this course is really awesome 👌 Incredibly insane 🙌 Machine Learning is not constricted to particular language its math which can work with logic.  Real life use case where we  can create our own data. This course is what it is. Kudos 🤘👍 to the content creator 👏"
+@jagadeeshgade6309,Thank you
+@Mike-jq7os,Why don't you use Emmet Abreviation ? 🧐
+@feitan8745,sometimes people just want to go vanilla all the way. amazing content.
+@Ou8y2k2,"Does this course have any prerequisites? Do you need to know JS, or can you be a beginner programmer? What about maths requirements?"
+@stephanedibo8167,"This Guy is a genius and really good teacher, be blessed"
+@pokemonunitechamp,"Yup I always used to wonder why do we learn from existing datasets, when we have to built a dataset from scratch for real-time applications"
+@pavelpavlov954,Amazing!!!!
+@aitorplaza2560,This guy is one of the best teachers on YouTube and he is totally underrated.
+@itamarperez,Top content thank you❤
+@zubiarfan,"Great content, thank you!"
+@AnkitKumar-fw3cz,Got introduced to REST API!
+@Alex-bc3xe,Great job Radu (felicitari sunt mandru de tine)
+@codingjugaad8777,Best part the course is not using a Library. So by learning implementation steps one can write in any language. Dr. Radu is just awesome
+@amuro432,Can we have a python version 😢
+@mo-em6bb,we need this course in python
+@ivgadev,This man is the most underrated in this community. The content he made is just insane.
+@khalidelgazzar,Watched the first 30 minutes & really looks great
+@hue_sane,👍
+@navins2246,"""Welcome to this no blackbox machine learning course...."" 
+Me: Very interesting
+""...in javascript""
+Me: imma outta here"
+@abdullahmertozdemir9437,Do I need JavaScript knowledge to follow this course?
+@_Anna_Nass_,4 min ago! Yeah! I’m early 🎉
+@ahmedsaleh2363,🍞👍
+@user-ti1rs8gz6j,great Course I just finish and it was amazing
+@RichReflectionz,"I’m still a newbie in programming, but I thought that Python was best for ML, this is awesome that JS can be used as well"
+@dhrambiragarwal3520,Helpful❤
+@vismax,48 second ago
+@abhinavrawat7999,First
+@billionairesayss,Always delivery fire ❤️
+@shaahkars,Yes 1
